@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang=“en”>
+ <head>
+<meta charset="utf-8">
+<title>Maheswari Resume</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header>
+<h1>Maheswari Ramasubbu</h1>
+        <a href="mailto:ramasubbu.maheswari@gmail.com" target="_blank"><p id="email">ramasubbu.maheswari@gmail.com</p></a>
+         <tel>919-904-1327</tel>
+     </header>
+<section id=“summary”>
+            <h1>Professional Overview</h1>
+          
+            <ul>
+                  <p><li> Highly motivated professional with master's degree in Computer Science with solid skill set in programming, data mining, networking, and web mining 
+ </li>
+                <li>Learnt basic PHP, JavaScript, HTML, CSS on Coursera</li>
+                <li> Exploring opportunities to continue applying and expanding my analytical and web programming skills
+</li>
+                <li> Detail oriented, multi-tasking individual with excellent problem solving skills</li>
+<li>Good cross-functional team player with excellent communication skills.</li></p></ul>
+            
+<section id="education">
+            <h1>Education</h1>
+            <ol class="timeline">
+                <li>
+                    <p class="date">2010–2012 </p>
+                    <p><strong>Master of Computer Science and Engineering</strong>.</p>
+                    <p class="note">Anna university,India</p>
+                </li>
+                <li>
+                    <p class="date">2006–2010</p>
+                    <p><strong>Bachelors in Computer Science and Engineering</strong>.             </p>
+                    <p class="note">Anna university,India</p>
+                </li>
+                </ol>
+        </section>
+
+</section>
+            <section id=“skills”>
+            <h1>Skills Summary</h1>
+            <p>
+            <ul>
+                <li>
+                <strong>Java/J2EE</strong>: Servlets, JSP, Java Beans, JDBC, RMI, JMS, Swing  </li>
+                <li>
+                <strong>Web Technologies</strong>:</span> XML, XSL, XSLT, CSS, Java Script, HTML5</li>
+                <li>
+                <strong>Application Servers</strong>: IBM WebSphere 6.x, Jboss, Tomcat 5.x </li>
+<li>
+<strong> Microsoft Technologies</strong>:	ASP, VB, ASP.Net, VB.Net</li>
+<li>
+<strong> Databases</strong>:Access, Oracle, Teradata, PostgreSQL</li>
+<li>
+<strong> Operating System</strong>: Unix, Linux, Windows 10, OSx </li>
+</ul>
+            </p></section>
+
+ <section id=“Experience”>           
+<h1>Experience</h1>
+<p><strong>Software Engineer At Dynasoft Synergy</strong><small> Chennai,India</small>   
+<strong>May-Sep 2010</strong></p>     
+           
+          <p>  <ul>                 <li> Coded the front end framework components using Web 2.0 JavaScript library </li>
+<li>Implementing server side functionalities using java, servlets, Hibernate </li>
+<li>Developing business logic in Java using the J2EE APIs.</li>
+<li>Developed web application using JSF Framework </li>
+<li>Performed analysis for the client requirements based on the developed detailed design documents. </li>
+<li>Developed Use Cases, Class Diagrams, Sequence Diagrams and Data Models.</li>
+<li> Involved in developing the UI pages using HTML, DHTML, CSS, JavaScript, JSON, jQuery, Ajax.</li>
+<li>Followed the Agile and Scrum development methodologies</li>
+<li> Design and development of Web pages using HTML, CSS including Ajax controls and XML.</li>
+</ul> </p>        
+</section>
+<h1>Academic Achievements</h1>
+            <p>
+            <ul>
+                <li> Secured University second rank in Masters degree
+</li>
+<li>Leader of student advisory committee</li>
+<li>Best Outgoing student award in 2010
+</li>
+                 
+</ul>
+<section id="interests">
+            <h1>Independent courses</h1>
+            <ul>
+                <li>Introduction to Big data in coursera</li>
+                <li>Python Data structures in coursera</li>
+                <li>Introduction to PHP in Udacity</li>
+                <li>Java programming  Principles of Software Design in coursera</li>
+                
+            </ul>
+        </section>
+
+<h1> Projects</h1>
+
+<h2> Web Search Results Clustering</h2>
+<p>This Project concerns a Subject Oriented Clustering Algorithm to cluster the web search results obtained from the web search engines. It creates a list of words that serves as suggestions for the users of search engines to modify their current search query.</p>
+
+<p><strong>Technologies used:</strong> Java, Java Script, and Access</p>
+
+<h2>Medical Image Segmentation</h3>					
+<p>The project focuses on segmenting the brain Magnetic Resonance (MR) image to track neural diseases using Fuzzy C Means algorithm. This fuzzy clustering has been proved to be superior over other existing algorithms in terms of segmentation efficiency.</p>
+
+<p><strong>Technologies used: </strong> Java RMI</p>
+
+
+<h1>Publications</h1>
+<ol><li>Maheswari. R and D Vijayakumar. Automatic Tag cloud Realization of web search results using Incremental Clustering By Directions Algorithm. International Journal of Computer Applications, ICON3C (1): 12-17, April 2012</li></ol>
+
+<h1>Conference Presentations</h1>	
+<ol><li>Interactive query expansion and clustering of web search results - International conference in emerging trends in Computer and Communication Technologies (EMICS’12) </li>
+<li>Automatic Tag cloud realization of web search results using Incremental Clustering by Directions Algorithm - International conference on Recent trends in Computational Methods, Communication and Controls (ICON3C 2012) </li>
+<li>Automatic tag cloud realization using Incremental Clustering by Subjects Algorithm - National Conference in Computer Vision 2012</li>
+<li>Computational time efficient Fuzzy C Means for medical image segmentation - National Conference on Image Processing 2010</li></ol>
+
+   
+   
+    </body>
+</html>
+
+
