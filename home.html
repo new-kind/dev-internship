@@ -1,0 +1,136 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    
+    <title>Home</title>
+    
+    <!-- All Styles below -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/screen.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,900' rel='stylesheet' type='text/css'>
+    <!-- All JavaScript below -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="anim.js"></script>
+
+  </head>
+    
+  <body>
+    <!-- WELCOME SPLASH -->
+    <div id="welcome">
+      <span id="profile"><img src="me-01.png"></span>
+      <h1>HELLO!</h1>
+      <h1 style="font-weight: 300; font-size: 1em">My name is Daxit Agarwal</h1>
+      <button id="start" type="button" >About Me</button>
+    </div>
+    
+    <!-- NAV PANEL -->
+    <div id="aboutme">
+      <button id="general" class="options" style="margin-right: .35em; background-color: #00b3e3" type="button">General</button>
+      <button id="design" class="options" style="margin-left: .35em; background-color: #c0392b"; type="button">Design</button>
+      <br>
+      <button id="tech" class="o-large" style="background-color: #27ae60 " type="button">Technical</button>
+    </div>
+    
+    <!-- ABOUT PANELS -->
+    <div class="about" id="aboutgeneral">
+    <h2>>  General</h2>
+    <ol>
+      <li>
+        <p>
+          I hope to learn the collaborative process of web development while strengthening my personal skills in HTML, CSS, and especially JavaScript.  I also hope to extend, improve, and diversify my web development portfolio.
+        </p>
+      </li>
+      <li>
+        <p>
+          I am interested in learning more about the full capabilities of JavaScript to achieve fluid web animations and develop interactive web content that may otherwise require flash or heavy plugins.  Web optimization is another valuable asset I would like to add to my skill set.  I believe a website should be as fast as it is enriching.  I would also like to learn prototyping techniques and related software such as Axure.
+        </p>
+      </li>
+      <li>
+        <p>
+          I work well independently and, as long as I am challenged, will be constantly motivated to deliver content in a timely manner with and with high standard. 
+        </p>
+      </li>
+    </ol>
+    </div>
+    
+    
+    <div class="about" id="aboutdesign">
+    <h2 style="color: #c0392b">>  Design</h2>
+    <ol>
+      <li>
+        <p>
+          While often thought of as sequential, I interpret design and development as an integrated system where one can not function without constant dependency on the other.  When a developer publishes content, they must consider how the user or end group will interact with their data.  This includes how the user will read the content, how they will navigate through the content, and even how they will store and utilize the content in the future.  If there is good design, the content will be easy to navigate and recall for later use, but if the design is lacking it can hinder ease of use, and even prevent access to some developed features.  A developer's role in a design setting is to deliver clean and understandable content that is easily manipulated so that further on in the design process it is easy to optimize for a specific platform or goal. 
+        </p>
+      </li>
+      <li>
+        <p>
+          Grids are useful to easily place and space multiple sections or panels of content on a webpage.  A proper grid design can offer flexibility and compatibility across many screen sizes, resolutions, and platforms.  When I go about creating a grid, I nest div containers and then float the inside containers either to the left or right depending on how I need the content.  I often include a header and footer element on the top and bottom of a main element which holds the most important information of that webpage.  I utilize borders and padding to appropriately space my div containers, and percentages to proportionally create div container sizes when necessary.
+        </p>
+      </li>
+      <li>
+        <p>
+          Both pattern libraries and visual systems are ways of keeping web content consistent and unique.  They offer repeatable components such as carousels, layouts, colors, typography, etc.  These are extremely useful because it allows a large team of designers and developers to pull pieces from a common location, without having to waste time and recreate that same element from scratch.  This also allows future changes and new pieces to remain consistent, and new pieces added over time can be shared in the library or system to ensure consistency. I have not personally built a pattern library or visual system but I have worked with frameworks such as Bootstrap and Materialize that include these libraries and systems.
+        </p>
+      </li>
+    </ol>
+    </div>
+    
+    
+    <div class="about" id="abouttech">
+    <h2 style="color:  #27ae60">>  Technical</h2>
+    <ol>
+      <li>
+        <p>
+          I have not done significant development in WordPress, but I am a quick learner and have experience working with other frameworks such as Bootstrap and Materialize.  I am also very good about learning documentation.
+        </p>
+      </li>
+      <li>
+        <p>
+          I have used version control two other times, one being with Unity3d and Android application development, and the other for a website project on GitHub.  
+        </p>
+      </li>
+      <li>
+        <p>
+          I prefer to use the Sass pre-processor and specifically scss.  I enjoy the ability to utilize variables, remove redundancy through the extend function, and split up pieces of css by being able to import partial code.  Other popular pre-processors such as LESS offer the similar functionality that I like, but I am most used to Sass.
+        </p>
+      </li>
+      <li>
+        <p>
+          I am comfortable or aim to become comfortable with responsive design.  Whenever I build for the web I always take into account different resolutions and window/screen sizes.  I prefer to use either ems or percents and almost never use pixels.  I have attempted one mobile-first project before by utilizing JavaScript's functionality to detect different window sizes and move content around appropriately.  Although, this is not the ideal method, since then I have discovered easier ways to develop mobile-first.  The most important concept I have learned in responsive and mobile-first development is to keep content relative to its parent.
+        </p>
+      </li>
+      <li>
+        <p>
+          I am mostly a fan of TechCrunch and Awwwards when it comes to following web-development.  TechCrunch is a great resource to examine general development trends and discovery while Awwwards provides specific guidance and real examples of fresh website content I use to inspire and improve my development.
+        </p>
+      </li>
+      <li>
+        <p>
+          I am a huge fan of material and flat design so I really enjoy using the Materialize framework.  I also use flatuicolors.com to create material color schemes. I like the simplicity and functionality jQuery brings to JavaScript and with my growing knowledge of the language am beginning to explore many web animation tools.  Such tools include uilang, snabbt, and snapsvg.
+        </p>
+      </li>
+      <li>
+        <p>
+          HTML is the top most layer that provides the physical content that will actually be displayed on a webpage.  By adding tags to HTML, the underlying CSS and JS can interact with this layer.  CSS is most useful for designing and laying out a website.  CSS allows the website to have different colors, sizes, and overall dynamic content.  JS adds functions that can manipulate CSS, or HTML directly.  These functions allow further manipulation of content based off of recorded user actions.
+        </p>
+      </li>
+      <li>
+        <p>
+          I strongly favor progressive enhancement because most browsers are now able to handle most new standards set by W3.  I believe in moving forward and exploring new technologies in the web space rather than limiting myself within compatibility boundaries.  Knowing there is so much unique and fresh content to incorporate into web development it is hard to limit myself.
+        </p>
+      </li>
+    </ol>
+      
+    </div>
+    <div class="footer">
+      
+      <button id="nav"><strong>NAV</strong></button>
+      
+    </div>
+    
+    
+    
+    
+    
+  </body>
+
+</html>
