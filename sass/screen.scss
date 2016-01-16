@@ -8,3 +8,82 @@
 @import "_variables";
 @import "_typography";
 @import "_dev-internship";
+@import "_shapes";
+
+#welcome {
+  width: auto;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  font-size: 3rem;
+  white-space: nowrap;
+  text-align: center;
+}
+
+#start {
+  @extend .button;
+  margin-top: 2.5rem;
+}
+
+#profile {
+  @extend .orb;
+  position: relative;
+}
+
+#profile img {
+  width: 97%;
+  height: 97%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#aboutme {
+  @extend #welcome;
+  font-size: 2rem;
+  display: none;
+}
+
+.about {
+  text-align: left;
+  width: 80%;
+  position: relative;
+  margin: 10em auto;
+  display: none;
+}
+
+.footer {
+  width: 5em;
+  height: 1.5em;
+  margin: auto;
+  z-index: 10000;
+  position: fixed;
+  text-align: center;
+  bottom: 3em;
+  left: 0;
+  right: 0;
+  @extend p;
+  color: $orange;
+  background: $white;
+  border-radius: 3em;
+  border-width: .12em;
+  border-style: solid;
+  
+  
+}
+.footer button{
+  margin: 0 1em;
+  background: none;
+  border: none;
+  @extend p;
+  color: $orange;
+  
+}
+.footer .hr{
+  border-bottom: dashed ;
+  border-color: $orange;
+  border-width: .2em;
+  display: block;
+}

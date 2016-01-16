@@ -1,31 +1,27 @@
 /* TYPOGRAPHY */
 
 h1, h2, h3, p, li{
-	font-family: "Maison Neue", sans-serif;
-	font-weight: 100;
+	font-family: $font;
+	font-weight: 400;
 }
 
 h1{
 	font-size: 2em;
-	color: $white;
-	font-weight: 400;
+	color: $black;
+	font-weight: 900;
 }
 
 h2{
 	font-size: 1.5em;
-	margin-bottom: 2em;
+	margin-bottom: .5em;
 	color: $nkblue;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 p{
-	line-height: 1.4em;
+	line-height: 1.8em;
 	color: $black;
-	max-width: 800px;
-
-	+ p{
-		margin-top: 2em;
-	}
+    margin-left: 1.5em;
 }
 
 a{
@@ -35,12 +31,8 @@ a{
 }
 
 li{
-	line-height: 1.2em;
-	max-width: 800px;
-	
-	+ li{
-		margin-top: 1em;
-	}
+	line-height: 1.8em;
+    margin-left: 1.5em;
 }
 
 ol li{ 
